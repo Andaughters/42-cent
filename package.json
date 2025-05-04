@@ -19,6 +19,7 @@
     "42-cent-beanstream": "^1.0.0",
     "42-cent-braintree": "^1.0.0",
     "42-cent-model": "^2.0.0",
+    "42-cent-mollie": "^1.0.0",
     "42-cent-omise": "^1.0.0",
     "42-cent-paypal": "^1.0.0",
     "42-cent-stripe": "^1.0.0",

@@ -7,6 +7,7 @@ var PayPal = require('42-cent-paypal').factory;
 var WorldPay = require('42-cent-worldpay').factory;
 var Beanstream = require('42-cent-beanstream').factory;
 var Moneris = require('42-cent-moneris');
+var Mollie = require('42-cent-mollie').factory;
 
 // Deprecated:
 // var AuthorizeNet = require('authorize-net');
@@ -27,7 +28,8 @@ var supportedGateway = {
   // "RocketGate": RocketGate,
   // "VirtualMerchant": VirtualMerchant,
   // "NMI": NMI,
-  "Moneris": Moneris
+  "Moneris": Moneris,
+  "Mollie": Mollie
 };
 var CreditCard = require('42-cent-model').CreditCard;
 var Prospect = require('42-cent-model').Prospect;
